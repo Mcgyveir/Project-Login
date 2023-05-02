@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.background {
+    padding: 0 20px 0 20px;
+    background-color: #F4F4F4;
+
+}
+
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.row {
+    width: 900px;
+    height: 600px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+
+}
+
+/* LADO ESQUERDO */
+ 
+
+.side-image{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;   
+    
+}
+
+.side-image img{
+    width: 390px;
+    height: 390px;
+    margin: 15% 0 0 10%;
+} 
+
+/* LADO DIREITO */
+
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 2px;
+    background-color: #fff;
+
+
+}
+
+.input-box {
+    width: 330px;
+    box-sizing: border-box;
+
+}
+
+.input-box header {
+    position: relative;
+    font-weight: 600;
+    text-align: left;
+    color: #2F2F2F;
+    top: -20px;
+    left: -30px;
+    
+    
+
+}
+
+.input-box header strong {
+    font-weight: 900; 
+    margin-left: 22px;
+    color: #6358DC;
+    font-size: 1.5rem;
+    text-align: right;
+ 
+
+}
+
+.options button{
+    position: relative;
+    background-color: #fff;
+    text-decoration: none;
+    border: none;
+    box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.3);
+    width: 100%;
+    height: 45px;
+    margin-bottom: 25px;
+    margin-inline-start: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    justify-content: center;
+    transition: 0.4s;
+    
+}
+
+.options button:hover {
+    background-color: #ECECEC;
+
+}
+
+.options img{
+    width: 21px;
+    height: 21px;
+    padding-right: 5px;
+}
+
+.or {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-shadow: 3px 1px 0px rgba(47,47,47,0.09);
+
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    position: relative;
+    font-size: 13px;
+  
+
+}
+
+.input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    margin-bottom: 22px;
+    outline: none;
+    background: transparent;
+    background-color: #ECECEC;
+    border-radius: 5px;
+ 
+
+}
+
+.input-box .input-field label {
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    color: #2F2F2F;
+    position: absolute;
+    transition: .3s;
+    margin-left: 10px;
+    background: transparent;
+
+}
+
+.input-field .input:focus ~ label {
+    top: -13px;
+    font-size: 12px;
+}
+
+.input-field .input:valid ~ label {
+    top: -10px;
+    font-size: 13px;
+}
+
+.input-field .input:focus, .input-field .input:valid{
+    border-bottom: 1px solid #2F2F2F;
+}
+
+.input-field-check input{
+
+    margin-left: 5%;
+    
+}
+
+.input-field-check label{
+    font-size: 13px;
+    padding: 3px;
+
+}
+
+.input-field-check a{
+    text-decoration: none;
+    color: #6358DC;
+    align-items: flex-end;
+    font-size: 13px;
+    padding-left: 19%;
+
+}
+.submit {
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 3px;
+    background: #ECECEC;
+    transition: .4s;
+    margin-bottom: 10px;
+    margin-top: 30px;
+   
+
+}
+.submit:hover {
+    background: #6358DC;
+    color: #fff;
+}
+
+
+.signin {
+    text-decoration: none;
+    font-weight: 700;
+    color: #2F2F2F;
+    transition: 0.3;
+    margin-left: 5%;
+    font-size: 13px;
+    text-align: center;
+ 
+}
+
+span a {
+    text-align: center;
+    color: #6358DC;
+    transition: .5s;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+
+  
+
